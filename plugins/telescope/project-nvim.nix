@@ -11,6 +11,6 @@ in {
   };
 
   config = mkIf cfg.enable {
-    plugins.telescope.enabledExtensions = ["projects"];
+    plugins.telescope.enabledExtensions = ["project"];
   };
 }
